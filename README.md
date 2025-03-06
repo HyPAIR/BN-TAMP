@@ -24,7 +24,4 @@ Launch CoppeliaSim and select the scene Box_Stacking then do the following:
 $ python3 main.py 
 ```
 
-<p align="center">
-  <img src="https://github.com/HyPAIR/BN-TAMP/temp/bn-tamp.gif" alt="bn-tamp" width="600">
-</p>
-
+![bn-tamp](https://github.com/user-attachments/assets/0a327fc5-1121-4502-aec3-b639215c3207)
