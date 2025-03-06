@@ -1,0 +1,29 @@
+[
+    {
+        "trial_id": 1,
+        "anomaly_type": "M_B",
+        "method": "nominal",
+        "success": 0,
+        "time_taken": 15.36,
+        "actions_used": 2,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 1,
+        "anomaly_type": "M_B",
+        "method": "nominal",
+        "success": 0,
+        "time_taken": 30.74,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 1,
+        "anomaly_type": "M_B",
+        "method": "nominal",
+        "success": 0,
+        "time_taken": 76.32,
+        "actions_used": 10,
+        "stack_stability": 100
+    }
+]

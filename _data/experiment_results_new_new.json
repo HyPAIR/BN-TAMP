@@ -1,0 +1,2702 @@
+[
+    {
+        "trial_id": 1,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 70.97,
+        "actions_used": 10,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 2,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 175.77,
+        "actions_used": 26,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 3,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 148.61,
+        "actions_used": 22,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 4,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 58.04,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 5,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 98.74,
+        "actions_used": 14,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 6,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 44.96,
+        "actions_used": 6,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 7,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 135.4,
+        "actions_used": 20,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 8,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 44.91,
+        "actions_used": 6,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 9,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 96.98,
+        "actions_used": 14,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 10,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 135.93,
+        "actions_used": 20,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 11,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 44.94,
+        "actions_used": 6,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 12,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 32.04,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 13,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 135.27,
+        "actions_used": 20,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 14,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 84.05,
+        "actions_used": 12,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 15,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 123.02,
+        "actions_used": 18,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 16,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 136.04,
+        "actions_used": 20,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 17,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 22.15,
+        "actions_used": 2,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 18,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 83.97,
+        "actions_used": 12,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 19,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 110.08,
+        "actions_used": 16,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 20,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 70.74,
+        "actions_used": 10,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 21,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 135.29,
+        "actions_used": 20,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 22,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 136.07,
+        "actions_used": 20,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 23,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 122.77,
+        "actions_used": 18,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 24,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 96.92,
+        "actions_used": 14,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 25,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 70.85,
+        "actions_used": 10,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 26,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 109.94,
+        "actions_used": 16,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 27,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 25.26,
+        "actions_used": 2,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 28,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 129.42,
+        "actions_used": 18,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 29,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 83.85,
+        "actions_used": 12,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 30,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 96.88,
+        "actions_used": 14,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 31,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 83.8,
+        "actions_used": 12,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 32,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 162.04,
+        "actions_used": 24,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 33,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 22.18,
+        "actions_used": 2,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 34,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 22.06,
+        "actions_used": 2,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 35,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 31.8,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 36,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 31.84,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 37,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 123.2,
+        "actions_used": 18,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 38,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 96.95,
+        "actions_used": 14,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 39,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 61.32,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 40,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 122.96,
+        "actions_used": 18,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 41,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 83.89,
+        "actions_used": 12,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 42,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 45.51,
+        "actions_used": 6,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 43,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 200.14,
+        "actions_used": 30,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 44,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 122.75,
+        "actions_used": 18,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 45,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 83.75,
+        "actions_used": 12,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 46,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 110.16,
+        "actions_used": 16,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 47,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 31.86,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 48,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 32.03,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 49,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 139.26,
+        "actions_used": 20,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 50,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 174.22,
+        "actions_used": 26,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 1,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.37,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 2,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 55.86,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 3,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.39,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 4,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.47,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 5,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 21.29,
+        "actions_used": 2,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 6,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.64,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 7,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.29,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 8,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 30.1,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 9,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 55.53,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 10,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 80.4,
+        "actions_used": 12,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 11,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.67,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 12,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.36,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 13,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 57.54,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 14,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 56.19,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 15,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 55.84,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 16,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.66,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 17,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 18.3,
+        "actions_used": 2,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 18,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.47,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 19,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 55.89,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 20,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 21.25,
+        "actions_used": 2,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 21,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.42,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 22,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 54.91,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 23,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 21.43,
+        "actions_used": 2,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 24,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.37,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 25,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 80.33,
+        "actions_used": 12,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 26,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 55.92,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 27,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 59.3,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 28,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 57.87,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 29,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 56.43,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 30,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 79.8,
+        "actions_used": 12,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 31,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 30.14,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 32,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.64,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 33,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 30.15,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 34,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 56.39,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 35,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 59.86,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 36,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.47,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 37,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 56.7,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 38,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 56.02,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 39,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 55.87,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 40,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.34,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 41,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.4,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 42,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.55,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 43,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.46,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 44,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.64,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 45,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 57.41,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 46,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 60.26,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 47,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 56.03,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 48,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.53,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 49,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 56.38,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 50,
+        "anomaly_type": "M_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 18.36,
+        "actions_used": 2,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 1,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.43,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 2,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.46,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 3,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.39,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 4,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.37,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 5,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.44,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 6,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.43,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 7,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.41,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 8,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.4,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 9,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.51,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 10,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.42,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 11,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.4,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 12,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.38,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 13,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.41,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 14,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 0,
+        "time_taken": 19.43,
+        "actions_used": 2,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 15,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.48,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 16,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.42,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 17,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.48,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 18,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 0,
+        "time_taken": 22.37,
+        "actions_used": 2,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 19,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.5,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 20,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.63,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 21,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.39,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 22,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.4,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 23,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.4,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 24,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 0,
+        "time_taken": 22.68,
+        "actions_used": 2,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 25,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.43,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 26,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.45,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 27,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.37,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 28,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.44,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 29,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.38,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 30,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.43,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 31,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.4,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 32,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.49,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 33,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.39,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 34,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.51,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 35,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.46,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 36,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.4,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 37,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.45,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 38,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.41,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 39,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.42,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 40,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.37,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 41,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.43,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 42,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.4,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 43,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.43,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 44,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.46,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 45,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.5,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 46,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.5,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 47,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.46,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 48,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.5,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 49,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 0,
+        "time_taken": 19.41,
+        "actions_used": 2,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 50,
+        "anomaly_type": "M_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.47,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 1,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 71.72,
+        "actions_used": 10,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 2,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 103.16,
+        "actions_used": 14,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 3,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 83.77,
+        "actions_used": 12,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 4,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 135.73,
+        "actions_used": 20,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 5,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 70.79,
+        "actions_used": 10,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 6,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 162.31,
+        "actions_used": 24,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 7,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 83.89,
+        "actions_used": 12,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 8,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 70.97,
+        "actions_used": 10,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 9,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 70.75,
+        "actions_used": 10,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 10,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 57.74,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 11,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 150.23,
+        "actions_used": 22,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 12,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 122.9,
+        "actions_used": 18,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 13,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 83.95,
+        "actions_used": 12,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 14,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 109.94,
+        "actions_used": 16,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 15,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 135.87,
+        "actions_used": 20,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 16,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 136.24,
+        "actions_used": 20,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 17,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 135.33,
+        "actions_used": 20,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 18,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 148.76,
+        "actions_used": 22,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 19,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 123.1,
+        "actions_used": 18,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 20,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 110.99,
+        "actions_used": 16,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 21,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 31.88,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 22,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 57.86,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 23,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 214.96,
+        "actions_used": 32,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 24,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 123.02,
+        "actions_used": 18,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 25,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 97.12,
+        "actions_used": 14,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 26,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 136.96,
+        "actions_used": 20,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 27,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 57.85,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 28,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 31.95,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 29,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 135.45,
+        "actions_used": 20,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 30,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 148.51,
+        "actions_used": 22,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 31,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 57.88,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 32,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 61.17,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 33,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 109.95,
+        "actions_used": 16,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 34,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 123.13,
+        "actions_used": 18,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 35,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 109.94,
+        "actions_used": 16,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 36,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 57.91,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 37,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 19.11,
+        "actions_used": 2,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 38,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 148.42,
+        "actions_used": 22,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 39,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 122.98,
+        "actions_used": 18,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 40,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 149.03,
+        "actions_used": 22,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 41,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 57.84,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 42,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 97.03,
+        "actions_used": 14,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 43,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 123.04,
+        "actions_used": 18,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 44,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 123.08,
+        "actions_used": 18,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 45,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 124.1,
+        "actions_used": 18,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 46,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 83.96,
+        "actions_used": 12,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 47,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 135.26,
+        "actions_used": 20,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 48,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 148.41,
+        "actions_used": 22,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 49,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 201.24,
+        "actions_used": 30,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 50,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 175.29,
+        "actions_used": 26,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 1,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 82.23,
+        "actions_used": 12,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 2,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 57.04,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 3,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 56.1,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 4,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 81.09,
+        "actions_used": 12,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 5,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.8,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 6,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 81.41,
+        "actions_used": 12,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 7,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 59.63,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 8,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.89,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 9,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 82.28,
+        "actions_used": 12,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 10,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 56.35,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 11,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 56.18,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 12,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.65,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 13,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.75,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 14,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 59.58,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 15,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 56.31,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 16,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.55,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 17,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.93,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 18,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.75,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 19,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.99,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 20,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 83.21,
+        "actions_used": 12,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 21,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.52,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 22,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 57.38,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 23,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 56.02,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 24,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 57.24,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 25,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 21.36,
+        "actions_used": 2,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 26,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 18.46,
+        "actions_used": 2,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 27,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 82.2,
+        "actions_used": 12,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 28,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.95,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 29,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.64,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 30,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 56.17,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 31,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.62,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 32,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 57.0,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 33,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 56.17,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 34,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.54,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 35,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 58.6,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 36,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 60.83,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 37,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 57.02,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 38,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 56.17,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 39,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.86,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 40,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 30.13,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 41,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.86,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 42,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 56.11,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 43,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 56.39,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 44,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.86,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 45,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 82.34,
+        "actions_used": 12,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 46,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.62,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 47,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 18.4,
+        "actions_used": 2,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 48,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 56.3,
+        "actions_used": 8,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 49,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.78,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 50,
+        "anomaly_type": "O_B_O_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 56.49,
+        "actions_used": 8,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 1,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.45,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 2,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 0,
+        "time_taken": 19.39,
+        "actions_used": 2,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 3,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.52,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 4,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 0,
+        "time_taken": 19.64,
+        "actions_used": 2,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 5,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.4,
+        "actions_used": 4,
+        "stack_stability": 50
+    },
+    {
+        "trial_id": 6,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.46,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 7,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.48,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 8,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.49,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 9,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.54,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 10,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.55,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 11,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.54,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 12,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.42,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 13,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.44,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 14,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 30.71,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 15,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 30.57,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 16,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.51,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 17,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.42,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 18,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.63,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 19,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.53,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 20,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 30.46,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 21,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.42,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 22,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.55,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 23,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.55,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 24,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.47,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 25,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.62,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 26,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.57,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 27,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.45,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 28,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.52,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 29,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.54,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 30,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.44,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 31,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.68,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 32,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.6,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 33,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.47,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 34,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.6,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 35,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.51,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 36,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.41,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 37,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.57,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 38,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.5,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 39,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.44,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 40,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.57,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 41,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.45,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 42,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.41,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 43,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.53,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 44,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.45,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 45,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.43,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 46,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 0,
+        "time_taken": 19.56,
+        "actions_used": 2,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 47,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.44,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 48,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.54,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 49,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.51,
+        "actions_used": 4,
+        "stack_stability": 100
+    },
+    {
+        "trial_id": 50,
+        "anomaly_type": "O_B_O_C",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 29.44,
+        "actions_used": 4,
+        "stack_stability": 100
+    }
+]

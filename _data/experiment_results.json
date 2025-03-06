@@ -1,0 +1,2850 @@
+[
+    {
+        "trial_id": 1,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 134.72,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 2,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 42.07,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 3,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 82.59,
+        "actions_used": 12
+    },
+    {
+        "trial_id": 4,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 41.8,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 5,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 135.39,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 6,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 55.37,
+        "actions_used": 8
+    },
+    {
+        "trial_id": 7,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 41.61,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 8,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 68.76,
+        "actions_used": 10
+    },
+    {
+        "trial_id": 9,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 68.74,
+        "actions_used": 10
+    },
+    {
+        "trial_id": 10,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 28.38,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 11,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 41.8,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 12,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 41.92,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 13,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 82.0,
+        "actions_used": 12
+    },
+    {
+        "trial_id": 14,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 136.04,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 15,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 15.06,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 16,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 135.97,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 17,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 109.17,
+        "actions_used": 16
+    },
+    {
+        "trial_id": 18,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 134.74,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 19,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 135.31,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 20,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 55.54,
+        "actions_used": 8
+    },
+    {
+        "trial_id": 21,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 68.5,
+        "actions_used": 10
+    },
+    {
+        "trial_id": 22,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 68.85,
+        "actions_used": 10
+    },
+    {
+        "trial_id": 23,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 134.77,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 24,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 135.28,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 25,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 135.4,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 26,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 55.08,
+        "actions_used": 8
+    },
+    {
+        "trial_id": 27,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 55.43,
+        "actions_used": 8
+    },
+    {
+        "trial_id": 28,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 109.17,
+        "actions_used": 16
+    },
+    {
+        "trial_id": 29,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 122.3,
+        "actions_used": 18
+    },
+    {
+        "trial_id": 30,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 82.17,
+        "actions_used": 12
+    },
+    {
+        "trial_id": 31,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 55.32,
+        "actions_used": 8
+    },
+    {
+        "trial_id": 32,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 135.59,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 33,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 41.84,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 34,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 55.32,
+        "actions_used": 8
+    },
+    {
+        "trial_id": 35,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 122.49,
+        "actions_used": 18
+    },
+    {
+        "trial_id": 36,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 69.05,
+        "actions_used": 10
+    },
+    {
+        "trial_id": 37,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 15.12,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 38,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 41.89,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 39,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 134.97,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 40,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 28.27,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 41,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 95.11,
+        "actions_used": 14
+    },
+    {
+        "trial_id": 42,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 109.1,
+        "actions_used": 16
+    },
+    {
+        "trial_id": 43,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 28.36,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 44,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 134.65,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 45,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 68.34,
+        "actions_used": 10
+    },
+    {
+        "trial_id": 46,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 81.76,
+        "actions_used": 12
+    },
+    {
+        "trial_id": 47,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 68.14,
+        "actions_used": 10
+    },
+    {
+        "trial_id": 48,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 54.94,
+        "actions_used": 8
+    },
+    {
+        "trial_id": 49,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 134.4,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 50,
+        "anomaly_type": "M_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 54.97,
+        "actions_used": 8
+    },
+    {
+        "trial_id": 1,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 74.29,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 2,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 43.99,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 3,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 74.44,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 4,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 303.72,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 5,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 303.36,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 6,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 255.7,
+        "actions_used": 18
+    },
+    {
+        "trial_id": 7,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 44.04,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 8,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 43.99,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 9,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 303.79,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 10,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 195.3,
+        "actions_used": 14
+    },
+    {
+        "trial_id": 11,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 74.51,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 12,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 104.66,
+        "actions_used": 8
+    },
+    {
+        "trial_id": 13,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 165.37,
+        "actions_used": 12
+    },
+    {
+        "trial_id": 14,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 165.21,
+        "actions_used": 12
+    },
+    {
+        "trial_id": 15,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 74.25,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 16,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 13.9,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 17,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 165.15,
+        "actions_used": 12
+    },
+    {
+        "trial_id": 18,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 44.26,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 19,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 164.99,
+        "actions_used": 12
+    },
+    {
+        "trial_id": 20,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 165.18,
+        "actions_used": 12
+    },
+    {
+        "trial_id": 21,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 44.15,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 22,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 286.52,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 23,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 304.59,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 24,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 44.11,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 25,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 304.92,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 26,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 13.89,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 27,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 14.05,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 28,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 104.96,
+        "actions_used": 8
+    },
+    {
+        "trial_id": 29,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 195.31,
+        "actions_used": 14
+    },
+    {
+        "trial_id": 30,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 134.84,
+        "actions_used": 10
+    },
+    {
+        "trial_id": 31,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 13.86,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 32,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 304.08,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 33,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 303.23,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 34,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 13.81,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 35,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 104.26,
+        "actions_used": 8
+    },
+    {
+        "trial_id": 36,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 44.1,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 37,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 44.2,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 38,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 13.86,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 39,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 165.4,
+        "actions_used": 12
+    },
+    {
+        "trial_id": 40,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 303.47,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 41,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 225.71,
+        "actions_used": 16
+    },
+    {
+        "trial_id": 42,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 104.55,
+        "actions_used": 8
+    },
+    {
+        "trial_id": 43,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 74.78,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 44,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 304.21,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 45,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 44.21,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 46,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 13.89,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 47,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 104.79,
+        "actions_used": 8
+    },
+    {
+        "trial_id": 48,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 44.07,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 49,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 165.36,
+        "actions_used": 12
+    },
+    {
+        "trial_id": 50,
+        "anomaly_type": "M_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 165.29,
+        "actions_used": 12
+    },
+    {
+        "trial_id": 1,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.12,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 2,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.13,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 3,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.13,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 4,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.24,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 5,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.18,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 6,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.18,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 7,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.15,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 8,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.1,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 9,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.3,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 10,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.24,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 11,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.13,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 12,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.22,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 13,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.15,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 14,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.12,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 15,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.16,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 16,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.27,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 17,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.25,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 18,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.22,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 19,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.17,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 20,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.28,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 21,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.13,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 22,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.17,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 23,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.15,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 24,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.3,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 25,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.12,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 26,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.21,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 27,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.1,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 28,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.2,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 29,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.22,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 30,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.17,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 31,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.16,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 32,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.09,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 33,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.14,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 34,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.13,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 35,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.11,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 36,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.17,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 37,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.13,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 38,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.13,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 39,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.11,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 40,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.14,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 41,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.11,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 42,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.2,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 43,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.18,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 44,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.11,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 45,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.13,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 46,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.09,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 47,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.23,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 48,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.12,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 49,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.1,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 50,
+        "anomaly_type": "M_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.09,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 1,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 134.59,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 2,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 122.78,
+        "actions_used": 18
+    },
+    {
+        "trial_id": 3,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 14.74,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 4,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 54.89,
+        "actions_used": 8
+    },
+    {
+        "trial_id": 5,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 14.86,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 6,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 15.79,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 7,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 134.31,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 8,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 82.47,
+        "actions_used": 12
+    },
+    {
+        "trial_id": 9,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 27.92,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 10,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 14.63,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 11,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 14.51,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 12,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 14.64,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 13,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 14.82,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 14,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 41.3,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 15,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 95.82,
+        "actions_used": 14
+    },
+    {
+        "trial_id": 16,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 14.63,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 17,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 134.31,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 18,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 67.98,
+        "actions_used": 10
+    },
+    {
+        "trial_id": 19,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 134.66,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 20,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 134.37,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 21,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 41.21,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 22,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 28.12,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 23,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 108.35,
+        "actions_used": 16
+    },
+    {
+        "trial_id": 24,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 133.92,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 25,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 135.14,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 26,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 134.32,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 27,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 41.53,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 28,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 28.13,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 29,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 107.83,
+        "actions_used": 16
+    },
+    {
+        "trial_id": 30,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 134.25,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 31,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 82.04,
+        "actions_used": 12
+    },
+    {
+        "trial_id": 32,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 28.05,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 33,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 121.6,
+        "actions_used": 18
+    },
+    {
+        "trial_id": 34,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 54.78,
+        "actions_used": 8
+    },
+    {
+        "trial_id": 35,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 42.59,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 36,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 55.36,
+        "actions_used": 8
+    },
+    {
+        "trial_id": 37,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 67.7,
+        "actions_used": 10
+    },
+    {
+        "trial_id": 38,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 108.43,
+        "actions_used": 16
+    },
+    {
+        "trial_id": 39,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 68.2,
+        "actions_used": 10
+    },
+    {
+        "trial_id": 40,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 41.37,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 41,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 41.42,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 42,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 27.9,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 43,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 68.15,
+        "actions_used": 10
+    },
+    {
+        "trial_id": 44,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 68.51,
+        "actions_used": 10
+    },
+    {
+        "trial_id": 45,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 14.62,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 46,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 27.77,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 47,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 41.79,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 48,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 134.42,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 49,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 28.13,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 50,
+        "anomaly_type": "O_B",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 14.7,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 1,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 13.61,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 2,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 13.56,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 3,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 13.66,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 4,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 164.63,
+        "actions_used": 12
+    },
+    {
+        "trial_id": 5,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 197.04,
+        "actions_used": 14
+    },
+    {
+        "trial_id": 6,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 287.24,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 7,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 285.68,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 8,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 13.55,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 9,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 224.94,
+        "actions_used": 16
+    },
+    {
+        "trial_id": 10,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 133.55,
+        "actions_used": 10
+    },
+    {
+        "trial_id": 11,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 104.46,
+        "actions_used": 8
+    },
+    {
+        "trial_id": 12,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 104.88,
+        "actions_used": 8
+    },
+    {
+        "trial_id": 13,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 196.98,
+        "actions_used": 14
+    },
+    {
+        "trial_id": 14,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 13.56,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 15,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 75.02,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 16,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 73.59,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 17,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 13.69,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 18,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 15.1,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 19,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 73.58,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 20,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 133.43,
+        "actions_used": 10
+    },
+    {
+        "trial_id": 21,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 43.47,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 22,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 194.46,
+        "actions_used": 14
+    },
+    {
+        "trial_id": 23,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 13.53,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 24,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 44.6,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 25,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 13.65,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 26,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 43.46,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 27,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 303.3,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 28,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 135.13,
+        "actions_used": 10
+    },
+    {
+        "trial_id": 29,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 73.5,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 30,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 195.37,
+        "actions_used": 14
+    },
+    {
+        "trial_id": 31,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 14.72,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 32,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 14.68,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 33,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 302.56,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 34,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 302.61,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 35,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 133.44,
+        "actions_used": 10
+    },
+    {
+        "trial_id": 36,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 73.77,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 37,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 300.97,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 38,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 302.4,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 39,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 304.13,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 40,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 13.57,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 41,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 302.22,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 42,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 13.7,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 43,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 301.86,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 44,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 302.55,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 45,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 13.6,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 46,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 43.73,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 47,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 284.83,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 48,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 13.59,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 49,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 105.88,
+        "actions_used": 8
+    },
+    {
+        "trial_id": 50,
+        "anomaly_type": "O_B",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 43.52,
+        "actions_used": 4
+    },
+    {
+        "trial_id": 1,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.86,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 2,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.95,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 3,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.88,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 4,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.98,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 5,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.92,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 6,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.02,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 7,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.03,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 8,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.02,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 9,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.89,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 10,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.05,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 11,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.92,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 12,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.87,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 13,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.94,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 14,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.88,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 15,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.95,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 16,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.87,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 17,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.88,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 18,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.01,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 19,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.02,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 20,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.84,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 21,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.9,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 22,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.85,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 23,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.93,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 24,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.88,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 25,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.88,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 26,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.99,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 27,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.08,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 28,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.85,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 29,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.87,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 30,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.85,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 31,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.89,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 32,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 14.05,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 33,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.87,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 34,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 14.06,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 35,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.87,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 36,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.08,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 37,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.84,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 38,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.0,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 39,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.85,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 40,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.91,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 41,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.03,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 42,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.89,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 43,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.88,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 44,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.92,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 45,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.84,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 46,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 13.07,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 47,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.86,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 48,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.94,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 49,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.89,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 50,
+        "anomaly_type": "O_B",
+        "method": "BN_PDDLStream",
+        "success": 1,
+        "time_taken": 12.89,
+        "actions_used": 2
+    },
+    {
+        "trial_id": 1,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 266.19,
+        "actions_used": 40
+    },
+    {
+        "trial_id": 2,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 185.81,
+        "actions_used": 28
+    },
+    {
+        "trial_id": 3,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 159.24,
+        "actions_used": 24
+    },
+    {
+        "trial_id": 4,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 186.43,
+        "actions_used": 28
+    },
+    {
+        "trial_id": 5,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 119.44,
+        "actions_used": 18
+    },
+    {
+        "trial_id": 6,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 145.6,
+        "actions_used": 22
+    },
+    {
+        "trial_id": 7,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 79.72,
+        "actions_used": 12
+    },
+    {
+        "trial_id": 8,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 133.56,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 9,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 158.79,
+        "actions_used": 24
+    },
+    {
+        "trial_id": 10,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 227.62,
+        "actions_used": 34
+    },
+    {
+        "trial_id": 11,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 146.25,
+        "actions_used": 22
+    },
+    {
+        "trial_id": 12,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 145.71,
+        "actions_used": 22
+    },
+    {
+        "trial_id": 13,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 186.53,
+        "actions_used": 28
+    },
+    {
+        "trial_id": 14,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 226.4,
+        "actions_used": 34
+    },
+    {
+        "trial_id": 15,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 158.92,
+        "actions_used": 24
+    },
+    {
+        "trial_id": 16,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 279.78,
+        "actions_used": 42
+    },
+    {
+        "trial_id": 17,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 158.4,
+        "actions_used": 24
+    },
+    {
+        "trial_id": 18,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 160.06,
+        "actions_used": 24
+    },
+    {
+        "trial_id": 19,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 145.9,
+        "actions_used": 22
+    },
+    {
+        "trial_id": 20,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 39.66,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 21,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 146.16,
+        "actions_used": 22
+    },
+    {
+        "trial_id": 22,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 145.52,
+        "actions_used": 22
+    },
+    {
+        "trial_id": 23,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 226.27,
+        "actions_used": 34
+    },
+    {
+        "trial_id": 24,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 185.71,
+        "actions_used": 28
+    },
+    {
+        "trial_id": 25,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 145.53,
+        "actions_used": 22
+    },
+    {
+        "trial_id": 26,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 52.58,
+        "actions_used": 8
+    },
+    {
+        "trial_id": 27,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 146.05,
+        "actions_used": 22
+    },
+    {
+        "trial_id": 28,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 145.55,
+        "actions_used": 22
+    },
+    {
+        "trial_id": 29,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 39.54,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 30,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 171.9,
+        "actions_used": 26
+    },
+    {
+        "trial_id": 31,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 212.28,
+        "actions_used": 32
+    },
+    {
+        "trial_id": 32,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 225.98,
+        "actions_used": 34
+    },
+    {
+        "trial_id": 33,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 145.73,
+        "actions_used": 22
+    },
+    {
+        "trial_id": 34,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 146.06,
+        "actions_used": 22
+    },
+    {
+        "trial_id": 35,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 159.9,
+        "actions_used": 24
+    },
+    {
+        "trial_id": 36,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 66.0,
+        "actions_used": 10
+    },
+    {
+        "trial_id": 37,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 39.63,
+        "actions_used": 6
+    },
+    {
+        "trial_id": 38,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 199.31,
+        "actions_used": 30
+    },
+    {
+        "trial_id": 39,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 92.81,
+        "actions_used": 14
+    },
+    {
+        "trial_id": 40,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 133.25,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 41,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 225.56,
+        "actions_used": 34
+    },
+    {
+        "trial_id": 42,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 159.69,
+        "actions_used": 24
+    },
+    {
+        "trial_id": 43,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 65.97,
+        "actions_used": 10
+    },
+    {
+        "trial_id": 44,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 147.02,
+        "actions_used": 22
+    },
+    {
+        "trial_id": 45,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 106.21,
+        "actions_used": 16
+    },
+    {
+        "trial_id": 46,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 133.52,
+        "actions_used": 20
+    },
+    {
+        "trial_id": 47,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 173.42,
+        "actions_used": 26
+    },
+    {
+        "trial_id": 48,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 82.55,
+        "actions_used": 12
+    },
+    {
+        "trial_id": 49,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 0,
+        "time_taken": 145.66,
+        "actions_used": 22
+    },
+    {
+        "trial_id": 50,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_1",
+        "success": 1,
+        "time_taken": 172.84,
+        "actions_used": 26
+    },
+    {
+        "trial_id": 1,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 145.15,
+        "actions_used": 18
+    },
+    {
+        "trial_id": 2,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 252.88,
+        "actions_used": 30
+    },
+    {
+        "trial_id": 3,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 540.35,
+        "actions_used": 60
+    },
+    {
+        "trial_id": 4,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_2",
+        "success": 1,
+        "time_taken": 469.11,
+        "actions_used": 54
+    },
+    {
+        "trial_id": 5,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 540.63,
+        "actions_used": 60
+    },
+    {
+        "trial_id": 6,
+        "anomaly_type": "M_A_B_M_B_C",
+        "method": "nominal_2",
+        "success": 0,
+        "time_taken": 540.35,
+        "actions_used": 60
+    }
+]

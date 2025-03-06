@@ -10,16 +10,12 @@ import argparse
 import json
 import random
 from multiprocessing import Pool
-#from ged import compute_ged, apply_edit_operations, calculate_cost
-#from ged import compute_ged, apply_edit_operations, compute_state_cost
-from ged import compute_ged, convert_to_json_compatible,apply_edit_operations, generate_pddl_problem, save_pddl_problem_to_file, run_planner,read_plan_file,pddlActionsToGedOperations
 import subprocess
 import networkx as nx
 import copy 
 import re
 import math
 import traceback
-from Robotiq import Robotiq85F
 from experiment_runner import ExperimentRunner
 
 
@@ -141,9 +137,8 @@ class RoboticSystem:
     def run_planner(self):
         # Command to execute the planner
         command = [
-            #'/home/yazz/Desktop/Active_Simulate_Plan_Before_New_Scene/pddlstream/examples/pybullet/kuka',
             'python3',
-            '/home/yazz/Desktop/Active_Simulate_Plan_Before_New_Scene/pddlstream/examples/pybullet/kuka/run.py',
+            '/home/yazz/Desktop/BN-TAMP/pddlstream/examples/pybullet/kuka/run.py',
             #'--search', 'astar(lmcut())'
         ]
         
@@ -312,12 +307,7 @@ class RoboticSystem:
                 res = self.get_distance(self.robot_tip_handle, self.target_dummy)
                 if res < 0.01 or tries > 1000: #0.01
                     break
-                # if tries > 500:
-                #     time.sleep(2)
-                #     self.scene_graph.reset()  # Reset the scene graph anomaly flag
-                #     print("I failed to reach pose so I will just restart.")
-                #     time.sleep(5)  # Wait a bit to see the action
-                #     self.reset_simulation()
+        
                 tries+= 1
         
             if result == 1:
@@ -520,7 +510,6 @@ class RoboticSystem:
         if dummy_handle is not None:
             
             self.target_dummy = dummy_handle
-            #self.move_to_position([self.table_1_position[0]+0.035, self.table_1_position[1], self.table_1_position[2]+0.7])
             dummy_handle = self.create_dummy(block_position, dummy_orientation)
             self.target_dummy = dummy_handle    
 
@@ -611,10 +600,7 @@ class RoboticSystem:
 
                 print(f"I am about to place and the x_offset = {x_offset} | y_offset = {y_offset} | z_offset = {z_offset}")
                 #Now need to randomize the x,y,z for when I try to place the object 
-                if self.helper == False:
-                    move_checker = self.move_to_position([block_position[0]+x_offset,block_position[1]+y_offset, block_position[2]+z_offset])
-                else:
-                    move_checker = self.move_to_position([block_position[0],block_position[1], block_position[2]+z_offset])
+                move_checker = self.move_to_position([block_position[0],block_position[1], block_position[2]+z_offset])
                 if move_checker == False:
                     return False
                 time.sleep(1)
@@ -630,9 +616,9 @@ class RoboticSystem:
             self.sim.setObjectParent(holding_handle, -1, True)
             time.sleep(0.3)
             self.sim.setObjectInt32Parameter(holding_handle, 3003, 0)
-            time.sleep(1.0)
+            time.sleep(2.0)
             #Below make sure that dynamics are turned off after placing to make sure it dont slide down afterwards...
-            self.sim.setObjectInt32Parameter(holding_handle, 3003, 0)
+            self.sim.setObjectInt32Parameter(holding_handle, 3003, 1)
             print(f'Placed the object (simulated)')
 
             time.sleep(0.5)
@@ -643,8 +629,6 @@ class RoboticSystem:
             move_checker = self.move_to_position([block_position[0], block_position[1], block_position[2]+0.4])
             if move_checker == False:
                 return False
-
-
 
         else:
             print('Error: Object handle or gripper handle is not valid.')
@@ -663,54 +647,6 @@ class RoboticSystem:
             self.sim.setObjectInt32Parameter(object_handle, 3003, 1)
             print(f'Placed the object (simulated)')
 
-            # target_node = 'Goal'
-            #  # Check for the most recent placed box
-            # for source, target, data in self.scene_graph.graph.edges(data=True):
-            #     if target == target_node and data['label'] == 'on':
-            #         target_node = source
-            # node_name = self.scene_graph.handle_to_node[object_handle]
-            
-            # if self.curBox == None:
-            #     self.curBox = node_name
-            # else:
-            #     self.prevBox = self.curBox
-            #     self.curBox = node_name
-            
-            # self.current_on_relationships.append((self.curBox, self.prevBox))
-
-            # print(f"I am here... {self.current_on_relationships}")
-            
-            
-            # self.scene_graph.current_on_relationships = self.current_on_relationships
-            # time.sleep(2)
-            # self.scene_graph.object_postition = self.get_current_state()
-            
-            # anomalies = self.scene_graph.detect_anomalies()
-            # print(f"Is there really an anomaly? {anomalies}")
-            # self.current_anomalies = anomalies
-            
-            #time.sleep(0.5)
-            #self.update_scene_graph()
-            #time.sleep(0.5)
-
-            # if anomalies:
-            #      self.anomaly_flag = True
-
-            # #print("Inside place", anomalies, len(anomalies), "Overturn" in anomalies[0])
-            # if not self.log_states:
-            #     if anomalies:
-            #         self.store_last_action('place', object_handle)
-            #         print("\n".join(anomalies))
-            #         if len(anomalies): # May need to do if len == 2 and overturn inside etc. 
-            #             time.sleep(0.5)
-            #             self.update_scene_graph()
-            #             time.sleep(0.5)
-
-            #         if not self.is_handling_anomaly:
-            #             self.is_handling_anomaly = True
-            #             self.anomaly_handling(anomalies)  # Call the anomaly handling function
-            #             self.is_handling_anomaly = False
-
             #time.sleep(0.5)
             self.update_scene_graph()
             #time.sleep(0.5)
@@ -719,419 +655,13 @@ class RoboticSystem:
         else:
             print('Error: Object handle or gripper handle is not valid.')
         time.sleep(0.5)  # Delay after placing
-
-
-    def move_and_place_block(self, block_handle, block_position, table_position, lift_range=(0.6, 0.6), place_range_1=(0.7, 0.7), place_range_2=(0.6, 0.6)):
-        # for _test in range(2):
-
-        #block_position = self.sim.getObjectPosition(self.block_c_handle, -1)
-
-        lift_height = random.uniform(*lift_range)
-        place_height_1 = random.uniform(*place_range_1)
-        place_height_2 = random.uniform(*place_range_2)
-
-        print(f'Moving block from {block_position} to table at {table_position}')
-        #dummy_orientation = [-1.6904, -1.1574, -1.6216]  # Euler angles: alpha=-96.853°, beta=-66.326°, gamma=-92.923°
-
-        dummy_orientation = [-1.7904, -7, -1.6216]  # Euler angles: alpha=-96.853°, beta=-66.326°, gamma=-92.923°
-
-        
-        # Update block position to get the latest position
-        self.scene_graph.update_positions()
-        block_position = self.sim.getObjectPosition(block_handle, -1)
-
-        # Generate a random value between 0, 1, or 2
-        #random_value = random.randint(0, 2)
-        random_value = 0
-
-        #Create dummy above the block and move to it
-
-        #self.gripper1.openGripper()
-        #time.sleep(1)
-    
-        #block_position[2] += 0.05
-       
-        dummy_handle = self.create_dummy(block_position, dummy_orientation)
-        if dummy_handle is not None:
-            
-            self.target_dummy = dummy_handle
-            self.move_to_position([self.table_1_position[0]+0.035, self.table_1_position[1], self.table_1_position[2]+0.7])
-            if random_value == 0: #Picking above (top)
-                dummy_orientation = [-1.7904, -7, -1.6216]  # Euler angles: alpha=-96.853°, beta=-66.326°, gamma=-92.923°
-                block_position[2] += 0.08  # Move above the block
-            elif random_value == 1: #Picking left 
-                #dummy_orientation_right = [-1.6904, 0, -3.1416]  # Facing right side, 180 degrees yaw rotation
-                dummy_orientation = [-1.6904, 0, -0.9]  # Euler angles: alpha=-96.853°, beta=-66.326°, gamma=-92.923°
-                block_position[0] += 0.01  # Move to the left of the block
-            elif random_value == 2: #Picking right
-                dummy_orientation = [-1.6904, 0, -2.5]  # Euler angles: alpha=-96.853°, beta=-66.326°, gamma=-92.923°
-                block_position[0] -= 0.01  # Move to the right of the block
-    
-            
-            dummy_handle = self.create_dummy(block_position, dummy_orientation)
-            self.target_dummy = dummy_handle
-            
-            self.move_to_position(block_position)
-            time.sleep(0.3)
-
-            self.update_scene_graph()
-            if self.log_states:
-                self.log_state(self.anomaly_flag)
-                time.sleep(0.3)
-            else:
-                self.log_counter+=1
-
-            self.last_action_log = 'pick'
-            
-            if random_value == 0:
-                self.last_pick_direction = 'pick_top'
-            elif random_value == 1:
-                self.last_pick_direction = 'pick_left'
-            else:
-                self.last_pick_direction = 'pick_right'
-            #self.gripper1.closeGripper(block_handle)
-            #time.sleep(1)
-            #isGripperClosed = self.gripper1.closeGripper(block_handle)
-            #time.sleep(2)
-            # for joint in self.joint_handles:
-            #     self.sim.setJointTargetVelocity(joint, 0)
-            # Wait before picking
-            time.sleep(0.2)  # 1.5-second delay before picking
-
-
-            self.pick(block_handle)
-            time.sleep(0.2)
-            
-            self.update_scene_graph()
-            if self.log_states:
-                self.log_state(self.anomaly_flag)
-                time.sleep(0.3)
-                self.last_action_log = ''
-                self.last_pick_direction = ''
-            else:
-                self.log_counter+=1
-
-            # Lift the block
-            lift_position = block_position[:]
-            # lift_position[2] += lift_height
-            lift_position[2] += 0.5
-            self.move_to_position(lift_position)
-            time.sleep(0.3)
-
-            time.sleep(0.3)
-            self.update_scene_graph()
-            #time.sleep(1)
-
-            # Remove any "on" relationships for the current block
-            node_name = self.scene_graph.handle_to_node[block_handle]
-            remove_edges = []
-
-            self.update_scene_graph()
-            print("I am here 1")
-            # Move to table position 1
-            table_position_with_height = table_position[:]
-            table_position_with_height[2] += 0.5
-            #self.move_to_position(table_position_with_height)
-            print(f"I am here 2, table_post = {table_position_with_height}")
-            # Check distance before placing
-            self.move_to_position(table_position_with_height)
-            time.sleep(1)
-            print("I am here 3")
-            time.sleep(0.6)
-            
-            # Move to table position 2
-            table_position_with_height = table_position[:]
-            table_position_with_height[2] += place_height_2
-
-
-            if random_value == 1:
-                table_position_with_height[0] += 0.05
-            
-            if random_value == 2:
-                table_position_with_height[0] -= 0.05
-
-            # if _test == 0:
-            #     _offset = 0.03
-            # else:
-            #     _offset = 0.0
-            _offset = 0.04
-            #table_position_with_height[0] = table_position_with_height[0] + _offset
-            table_position_with_height[0] = random.uniform(*(table_position_with_height[0]-_offset,table_position_with_height[0]+_offset))
-            table_position_with_height[1] = random.uniform(*(table_position_with_height[1]-_offset,table_position_with_height[1]+_offset))
-            
-            #self.move_to_position(table_position_with_height)
-            print("I am here 4")
-            # Check distance before placing
-            self.move_to_position(table_position_with_height)
-         
-            time.sleep(0.5)
-            print("I am here 5")
-            self.update_scene_graph()
-            if self.log_states:
-                self.log_state(self.anomaly_flag)
-                time.sleep(0.3)
-            else:
-                self.log_counter+=1
-            
-            self.last_action_log = 'place'
-            if random_value == 0:
-                self.last_place_direction = 'place_top'
-            elif random_value == 1:
-                self.last_place_direction = 'place_left'
-            else:
-                self.last_place_direction = 'place_right'
-
-          
-            self.place(block_handle)
-            time.sleep(0.5)
-            print("I am here 6")
-            self.update_scene_graph()
-            if self.log_states:
-                time.sleep(0.3)
-                self.log_state(self.anomaly_flag)
-                time.sleep(0.3)
-                self.last_action_log = ''
-                self.last_place_direction = ''
-            else:
-                self.log_counter+=1
-            print("I am here 7")
-        else:
-            print('Failed to create dummy above block')
-            exit()
-
-    def grasp_and_move(self):
-        # Get positions
-
-        self.set_initial_positions(
-            block_a_pos=[-0.70, 0.4, 0.20],
-            block_b_pos=[-0.72, 0.4, 0.33],
-            block_c_pos=[-0.7, 0.4, 0.45]
-        )
-
-        time.sleep(1)
-        self.turn_on_box_dynamics()
-        time.sleep(2)
-        self.turn_off_box_dynamics()
-        time.sleep(1)
-
-
-
-        block_c_position = self.sim.getObjectPosition(self.block_c_handle, -1)
-        block_b_position = self.sim.getObjectPosition(self.block_b_handle, -1)
-        block_a_position = self.sim.getObjectPosition(self.block_a_handle, -1)
-    
-        #Handling M+M
-        
-        #These two actions will just move it to the side
-        self.new_pick(self.block_c_handle)
-        self.new_place(self.block_c_handle, 'temp')
-
-        #Now need to address box b before placing box c. 
-        #(Make this happen twice for now then the final just once...)
-        for _ in range(5):
-            self.new_pick(self.block_b_handle)
-            self.new_place(self.block_b_handle,self.block_a_handle)
-        
-        self.helper = True
-        self.new_pick(self.block_b_handle)
-        self.new_place(self.block_b_handle,self.block_a_handle)
-
-        self.helper = False
-        for _ in range(4):
-            self.new_pick(self.block_c_handle)
-            self.new_place(self.block_c_handle,self.block_b_handle)
-
-        self.helper = True
-        self.new_pick(self.block_c_handle)
-        self.new_place(self.block_c_handle,self.block_b_handle)
-
-        time.sleep(100)
-
-        self.update_scene_graph()
-        self.scene_graph.current_on_relationships = self.scene_graph.get_relationships()
-        time.sleep(2)
-        self.scene_graph.object_postition = self.get_current_state()
-        
-        time.sleep(3)
-        self.turn_on_box_dynamics()
-        time.sleep(2)
-
-        anomalies = self.scene_graph.detect_anomalies()
-        print(self.scene_graph.get_relationships())
-        print(f"Is there really an anomaly? {anomalies}")
-        self.current_anomalies = anomalies
-
-        if anomalies:
-                self.anomaly_flag = True
-        
-        #print("Inside place", anomalies, len(anomalies), "Overturn" in anomalies[0])
-        if not self.log_states:
-            if anomalies:
-                print("\n".join(anomalies))
-                if len(anomalies): # May need to do if len == 2 and overturn inside etc. 
-                    time.sleep(0.5)
-                    self.update_scene_graph()
-                    time.sleep(0.5)
-
-                if not self.is_handling_anomaly:
-                    self.is_handling_anomaly = True
-                    self.anomaly_handling(anomalies)  # Call the anomaly handling function
-                    self.is_handling_anomaly = False
-
-        # Move Block C
-        self.move_and_place_block(self.block_c_handle, block_c_position, self.table_2_position)
-
-        # Move Block B
-        self.move_and_place_block(self.block_b_handle, block_b_position, self.table_2_position)
-        
-        # Move Block A
-        self.move_and_place_block(self.block_a_handle, block_a_position, self.table_2_position)
-
-        self.image_counter += 1
-        #time.sleep(100)
-    
+ 
     # A function to extract the numerical part of the log file name
     def extract_log_index(self, filename):
         match = re.search(r'Log_State_(\d+)_Run_(\d+)\.json', filename)
         if match:
             return int(match.group(1)), int(match.group(2))
         return float('inf'), float('inf')  # If the pattern does not match, push it to the end
-    
-    def anomaly_handling(self, anomalies):
-        print("Handling anomaly...")
-
-        print("I am about to attempt the anomaly handling")
-
-        # Retrieve current state
-        current_state = self.get_current_state()
-        current_state_json = convert_to_json_compatible(current_state)
-        #Save the current state
-        self.log_current_state()
-
-        #Run the bayesian network to get the goal state
-        #(TODO after, for now can assume this is fine, need to retrain BN actually)
-
-        #Run PDDLStream with correct intial predicates/start and goal positions
-        #(Just run the PDDLStream where we assume it has already taken in the inputs)
-        #self.run_planner()
-
-        initial_state_file = '/home/yazz/Desktop/Active_Simulate_Plan_Before_New_Scene/_data/my_plan.json'
-        with open(initial_state_file, 'r') as f:
-            plan_data = json.load(f)
-        
-        print(plan_data)
-        time.sleep(2)
-
-        # dummy_orientation = [-1.7904, 5, -1.6216]  # Euler angles: alpha=-96.853°, beta=-66.326°, gamma=-92.923°
-        dummy_orientation = [-1.3904, -1, -1.6216]  # Euler angles: alpha=-96.853°, beta=-66.326°, gamma=-92.923°
-       
-        dummy_handle = self.create_dummy(self.sim.getObjectPosition(self.block_a_handle, -1), dummy_orientation)
-        self.target_dummy = dummy_handle
-        #Moving to a place where I can perform pick later
-        self.move_to_position([self.table_1_position[0]+0.035, self.table_1_position[1], self.table_1_position[2]+0.7])
-        print("I have moved to the location prior to perfoming recovery")
-        time.sleep(1)
-
-        # Loop through the plan
-        for step in plan_data:
-         
-            action = step["action"]
-            details = step["details"]
-
-            # Process 'pick' actions
-            if action == "pick":
-                # Extract pose and grasp
-             
-                pose = details["pose"][0]  # The [x, y, z] part of the pose
-                grasp = details["grasp"][0]  # The [x, y, z] part of the grasp
-                object = details['object']
-
-                block = None
-                if int(object) == 4:
-                    block = self.block_a_handle
-                if int(object) == 5:
-                    block = self.block_b_handle
-                if int(object) == 6:
-                    block = self.block_c_handle
-
-                # Debug: Print the pose and grasp
-                print(f"Pick action: Object={details['object']}, Pose={pose}, Grasp={grasp}")
-
-                # Example usage of your move_to_position function in CoppeliaSim
-                # Move to the object's pose
-
-                # dummy_orientation = [-1.7904, -7, -1.6216]  # Euler angles: alpha=-96.853°, beta=-66.326°, gamma=-92.923°
-                # dummy_handle = self.create_dummy([-pose[0], pose[1], pose[2]+0.45], dummy_orientation)
-                # time.sleep(5)
-               # self.target_dummy = dummy_handle
-                # print(f"Moving to position prior to place")
-                # self.move_to_position([-0.5, 0.4, 0.6])
-                # time.sleep(1)
-                
-                print(f"Moving to pose...{pose}")
-                #self.move_to_position([-pose[0], pose[1], pose[2]+0.31])  # Replace 'self' with your class instance or context (2 boxes)
-                #self.move_to_position([-pose[0], pose[1], pose[2]-0.01])  # Replace 'self' with your class instance or context (3 boxes)
-                pos = self.sim.getObjectPosition(block, -1)
-                self.move_to_position([pos[0], pos[1], pos[2]+0.07])
-                print("I have now moved to the location to pick")
-                time.sleep(2)
-                self.pick(block)
-                print("I have picked the block")
-                time.sleep(2)
-                #self.move_to_position([-pose[0], pose[1], pose[2]+0.50]) 
-                self.move_to_position([pos[0], pos[1], 0.55])
-                print("Pick completed, now moving up a bit")
-                time.sleep(2)
-
-            #Process 'place' action
-            if action == "place":
-
-                '''
-                Figure out why it does not move to place location? it should indeed
-                be different to the pick placement?
-                '''
-
-                pose = details["pose"][0]  # The [x, y, z] part of the pose
-                grasp = details["grasp"][0]  # The [x, y, z] part of the grasp
-
-
-                # print(f"Moving to position prior to place")
-                # self.move_to_position([-0.5, 0.3, 0.6])
-                # time.sleep(1)
-
-                # Debug: Print the pose and grasp
-                print(f"Place action: Object={details['object']}, Pose={pose}, Grasp={grasp}")
-
-                # Example usage of your move_to_position function in CoppeliaSim
-                # Move to the object's pose
-                print(f"Moving to pose...{pose}")
-                #self.move_to_position([-pose[0], pose[1], pose[2]+0.55])  # Replace 'self' with your class instance or context
-                self.move_to_position([-pose[0], pose[1], pose[2]+0.1])  # Replace 'self' with your class instance or context
-                print("I have now moved to the location to place")
-                time.sleep(2)
-                self.place(block)
-                print("I have placed the block")
-                time.sleep(2)
-                # #self.move_to_position([-pose[0], pose[1], pose[2]+0.70]) 
-                # self.move_to_position([-pose[0], pose[1], pose[2]+0.60]) 
-                # print("Place completed, now moving up a bit")
-                # time.sleep(2)
-                print(f"Moving to position prior to place")
-                self.move_to_position([-0.2, 0.3, 0.6])
-                time.sleep(2)
-                
-                # # Move to the grasp pose (if needed)
-                # print("Moving to grasp...")
-                # self.move_to_position(grasp)
-
-        #Using the result from the PDDLStream to solve the anomaly
-
-
-        #Last check to see if the anomaly is still there. 
-        exit()
-        
-        print("Finished anomaly handling.")
-        print("Exiting anomaly handling.")
 
     def display_image(self, filename):
         # Check if the image file exists and is valid
@@ -1187,16 +717,6 @@ class RoboticSystem:
                 json.dump(state_data, f)
         self.log_counter += 1
 
-        # if flag == False:
-        #     with open(f'logs_success/Log_State_{self.log_counter+1}_Run_{self.run_counter}.json', 'w') as f:
-        #         json.dump(state_data, f)
-        #     self.log_counter += 1
-        # else:
-        #     with open(f'logs_fail/Log_State_{self.log_counter+1}_Run_{self.run_counter}.json', 'w') as f:
-        #         json.dump(state_data, f)
-        #     self.log_counter += 1
-        
-
 # Function to handle each simulation run
 def run_simulation(run_id, log_dir, scene_file, headless=False):
     # Create the unique log directory for this simulation run
@@ -1224,27 +744,6 @@ def main():
     parser.add_argument('--log', action='store_true', help='Enable state logging')
     args = parser.parse_args()
 
-    # parser = argparse.ArgumentParser()
-    # parser.add_argument('--log', action='store_true', help='Enable state logging')
-    # parser.add_argument('--parallel', type=int, help='Number of parallel simulations to run')
-    # parser.add_argument('--log_dir', type=str, default='logs/', help='Directory to save logs')
-    # parser.add_argument('--headless', action='store_true', help='Run CoppeliaSim in headless mode')
-    # parser.add_argument('--scene_file', type=str, required=True, help='Path to CoppeliaSim scene file')
-
-    # args = parser.parse_args()
-
-    # # If --parallel argument is passed, run parallel simulations
-    # if args.parallel:
-    #     # Create the main log directory if it doesn't exist
-    #     if not os.path.exists(args.log_dir):
-    #         os.makedirs(args.log_dir)
-
-    #     # Run parallel simulations using multiprocessing Pool
-    #     with Pool(processes=args.parallel) as pool:
-    #         pool.starmap(run_simulation, [(i, args.log_dir, args.scene_file, args.headless) for i in range(args.parallel)])
-        
-    #     return  # Exit after running parallel simulations
-
     task_queue = Queue()
     
     scene_graph = SceneGraph(task_queue)
@@ -1262,200 +761,16 @@ def main():
     robotic_system.connect()
     robotic_system.start_simulation()
     robotic_system.initialize_handles()
-
     robotic_system.turn_off_box_dynamics()
-
-    #Misalignment on B example, when A,B Stacked
-    # robotic_system.set_initial_positions(
-    # block_a_pos=[-0.7, 0.4, 0.17],
-    # block_b_pos=[-0.73, 0.4, 0.28],
-    # )
-
-
-
-    # #Overtun on B example, when A,B Stacked
-    # robotic_system.set_initial_positions(
-    # block_a_pos=[-0.7, 0.4, 0.17],
-    # block_b_pos=[-0.75, 0.4, 0.28],
-    # )
-
-
-
-    # #Misalignement on B example when A,B,C Stacked
-    # robotic_system.set_initial_positions(
-    # block_a_pos=[-0.7, 0.4, 0.17],
-    # block_b_pos=[-0.73, 0.4, 0.28],
-    # block_c_pos=[-0.7, 0.4, 0.39],
-    # )
-
-
-
-    # #Overtun and Misalignement on B,C example when A,B,C Stacked
-    # robotic_system.set_initial_positions(
-    # block_a_pos=[-0.7, 0.4, 0.17],
-    # block_b_pos=[-0.73, 0.4, 0.28],
-    # block_c_pos=[-0.64, 0.4, 0.39],
-    # )
-
-    # #Overtun on B,C example when A,B,C Stacked
-    # robotic_system.set_initial_positions(
-    # block_a_pos=[-0.7, 0.4, 0.17],
-    # block_b_pos=[-0.75, 0.4, 0.28],
-    # block_c_pos=[-0.68, 0.4, 0.39],
-    # )
-
-    # time.sleep(1)
-    # robotic_system.turn_on_box_dynamics()
-    # time.sleep(100)
-    
-    #I need to start, take relationship the turn on dynamics.. 
-
-    #robotic_system.save_initial_state()
-    # robotic_system.generateURDF()
-    # exit()
-
-    #Misalignment on B example, when A,B Stacked
-    # robotic_system.set_initial_positions(
-    # block_a_pos=[-0.7, 0.4, 0.17],
-    # block_b_pos=[-0.73, 0.4, 0.28],
-    # occ_obj_pos=[-0.7, 0.6, 0.25]
-    # )
-
+   
     ########## Experiement Pipeline ##########
     #Initialize experiment runner
     experiment_runner = ExperimentRunner(robotic_system, num_trials=50)
     #Run experiments for both methods
-    #["M_B", "O_B", "M_A_B_M_B_C", "M_B_O_C", "O_B_O_C"] 
-    for anomaly in ["M_B_O_C"]:
-        #experiment_runner.run_experiment(anomaly, "nominal_1")
-        #experiment_runner.run_experiment(anomaly, "nominal_2")
+    for anomaly in ["M_B", "O_B", "M_A_B_M_B_C", "M_B_O_C", "O_B_O_C"] :
         experiment_runner.run_experiment(anomaly, "BN_PDDLStream")
 
-
-    ########## Result Pipeline ##########
-
-    # M_B = {}
-    # O_B = {}
-    # M_A_B_M_B_C = {}
-    # M_B_O_C = {}
-    # O_B_O_C = {}
-
-    # initial_state_file = '/home/yazz/Desktop/Active_Simulate_Plan_Before_New_Scene/_data/experiment_results_new.json'
-    # with open(initial_state_file, 'r') as f:
-    #     result_data_1 = json.load(f)
-
-    # initial_state_file = '/home/yazz/Desktop/Active_Simulate_Plan_Before_New_Scene/_data/experiment_results_new_new.json'
-    # with open(initial_state_file, 'r') as f:
-    #     result_data_2 = json.load(f)
-
-
-
-    # print(f"This is result data 1 {result_data_1} \n")
-
-    # print(f"This is result data 2 {result_data_2} \n")
-
-    # exit()
-
-    # import json
-    # from collections import defaultdict
-    # import pandas as pd
-    # import tools
-    # #import ace_tools
-    # #import ace_tools as tools
-
-    # # Initialize data storage for anomalies
-    # anomalies = {
-    #     "M_B": defaultdict(list),
-    #     "O_B": defaultdict(list),
-    #     "M_A_B_M_B_C": defaultdict(list),
-    #     "M_B_O_C": defaultdict(list),
-    #     "O_B_O_C": defaultdict(list),
-    # }
-
-    # # Load both JSON files
-    # json_files = [
-    #     "/home/yazz/Desktop/Active_Simulate_Plan_Before_New_Scene/_data/experiment_results.json",
-    #     "/home/yazz/Desktop/Active_Simulate_Plan_Before_New_Scene/_data/experiment_results_1.json",
-    #     "/home/yazz/Desktop/Active_Simulate_Plan_Before_New_Scene/_data/experiment_results_2.json"
-    # ]
-
-    # # Define the max number of trials per anomaly-method pair
-    # MAX_TRIALS = 50  # Assuming each anomaly-method has 50 total trials
-
-    # for file in json_files:
-    #     with open(file, 'r') as f:
-    #         result_data = json.load(f)
-    #         for trial in result_data:
-    #             anomaly_type = trial["anomaly_type"]
-    #             method = trial["method"]
-                
-    #             if anomaly_type in anomalies:
-    #                 anomalies[anomaly_type][method].append(trial)
-
-    # # Compute statistics
-    # summary = {}
-
-    # for anomaly, methods in anomalies.items():
-    #     summary[anomaly] = {}
-    #     for method, trials in methods.items():
-    #         total_runs = len(trials)  # Total trials recorded
-    #         successful_trials = [t for t in trials if t["success"] == 1]  # Filter successful ones
-    #         success_count = len(successful_trials)  # Count successful trials
-
-    #         # Success Rate Calculation
-    #         success_rate = (success_count / MAX_TRIALS) * 100  # Divide by max trials
-
-    #         # Compute NA and TT only for successful trials
-    #         if success_count > 0:
-    #             avg_actions = sum(t["actions_used"] for t in successful_trials) / success_count
-    #             avg_time = sum(t["time_taken"] for t in successful_trials) / success_count
-    #         else:
-    #             avg_actions = 0
-    #             avg_time = 0
-
-    #         summary[anomaly][method] = {
-    #             "SR": round(success_rate, 1),
-    #             "NA": round(avg_actions, 1),
-    #             "TT": round(avg_time, 1)
-    #         }
-
-    # # Convert summary to DataFrame
-    # df = pd.DataFrame.from_dict({(i,j): summary[i][j] 
-    #                             for i in summary.keys() 
-    #                             for j in summary[i].keys()}, orient='index')
-
-    # # # Display the result in a table
-    # #ace_tools.display_dataframe_to_user(name="Anomaly Experiment Summary", dataframe=df)
-
-    # print(summary)
-
-
-    # exit()
-
     #########################################
-
-    for run in range(10000 if args.log else 20):  # Run 10 times if logging, otherwise once
-        robotic_system.run_counter = run + 1  # Update run counter
-        #robotic_system.clear_image_directories()  # Clear images at the start of each run
-        
-        try:
-            robotic_system.log_counter = 0  # Reset state counter for each run
-            robotic_system.grasp_and_move()
-
-        except Exception as e:
-            print(f"Error in grasp_and_move: {e}")
-
-        print(f"Logged {robotic_system.log_counter} successful states. | Run numer = {robotic_system.run_counter}")
-        print("I am here at the end no anomalies were found!")
-        time.sleep(1)
-        robotic_system.stop_simulation()
-        time.sleep(2)  
-        robotic_system.reset_simulation()
-        time.sleep(1)
-
-    time.sleep(2) 
-    robotic_system.stop_simulation()
-    cv2.destroyAllWindows()
 
 def process_tasks(task_queue):
     while True:
